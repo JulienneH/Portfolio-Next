@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "OhMyFood, restauration",
-    "imgProject": "Ohmyfood",
+    "imgProject": "ohmyfood",
     "description": "L’objectif de ce projet était de développer l'interface mobile-first du site web d’une start-up, en mettant l'accent sur la réactivité et l'ergonomie sur tous les appareils. En utilisant Sass pour la gestion des styles et en intégrant des animations CSS, j’ai créé une interface fluide et interactive à partir des maquettes Figma disponibles pour les versions mobile et desktop. L’approche mobile-first a permis de garantir que le site soit parfaitement optimisé pour les écrans mobiles avant de l’adapter aux autres résolutions.",
     "techUsed": ["HTML", "CSS", "SASS", "GIT", "GITHUB"],
     "github": "https://github.com/JulienneH/Projet-4",
@@ -47,14 +47,14 @@
   {
     "id": 6,
     "title": "Gestion de projet",
-    "imgProject": "Kanban",
+    "imgProject": "kanban",
     "description": "L'objectif de ce projet était de participer à la planification stratégique du développement d'un site web, en me concentrant sur l'organisation et la gestion du projet, sans intervenir dans la partie codage. Dans ce cadre, j'ai travaillé à partir de la maquette, des spécifications fonctionnelles et des User Stories pour comprendre les besoins du projet et organiser les différentes étapes de développement. J'ai rédigé les spécifications techniques en décomposant les fonctionnalités en tâches précises et en définissant les besoins fonctionnels. Pour assurer une gestion efficace du projet, j'ai utilisé Notion, où j'ai créé un tableau Kanban pour suivre les progrès et les priorités. En m’appuyant sur la méthode AGILE, j’ai planifié des sprints (cycles de travail de 15 jours) et organisé des réunions régulières comme les daily stand-ups pour favoriser la communication et l’adaptabilité dans un contexte professionnel.",
     "techUsed": ["NOTION"]
   },
   {
     "id": 7,
     "title": "Kasa, location immobilière",
-    "imgProject": "Kasa",
+    "imgProject": "kasa",
     "description": "Ce travail avait pour objectif de développer le front-end d'une application web en utilisant React et React Router, afin de créer une expérience utilisateur moderne et réactive. J'ai conçu et implémenté la logique de présentation des données et les composants React pour assurer une interface dynamique et fluide. React Router a été utilisé pour gérer la navigation entre les différentes pages de l'application, ce qui m'a permis d'acquérir une bonne maîtrise du routage dans une application web moderne.",
     "techUsed": ["HTML", "CSS", "REACT", "NODEJS", "GIT", "GITHUB"],
     "github": "https://github.com/JulienneH/Projet-8-React.git",
@@ -63,7 +63,7 @@
   {
     "id": 8,
     "title": "Portfolio de photographe ",
-    "imgProject": "Optimisation",
+    "imgProject": "optimisation",
     "description": "Le but de ce travail était d'optimiser le référencement, la performance et l'accessibilité d'un site web afin d'améliorer son classement sur les moteurs de recherche et offrir une meilleure expérience utilisateur. J'ai commencé par identifier les problèmes de chargement et de référencement du site en utilisant des outils d'audit tels que Lighthouse et Wave. Sur la base des résultats obtenus, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code, et l'optimisation pour les moteurs de recherche.",
     "techUsed": ["WAVE", "LIGHTHOUSE", "HTML", "CSS", "JS", "GIT", "GITHUB"],
     "github": "https://github.com/JulienneH/Optimisation-seo-p9.git",
@@ -72,7 +72,7 @@
   {
     "id": 9,
     "title": "724 events, agence événementielle ",
-    "imgProject": "Events",
+    "imgProject": "events",
     "description": "Ce projet m'a permis de finaliser le développement d'un site One-Page en me concentrant sur le débogage et la résolution des bugs.  Une partie importante du projet consistait à effectuer des tests unitaires, garantissant la fiabilité des différentes fonctionnalités du site. En parallèle, j'ai complété le cahier de recette, un document détaillant les scénarios de test nécessaires pour assurer le bon fonctionnement du site, incluant des tests unitaires et fonctionnels. Pour gérer le projet, j'ai utilisé Yarn comme gestionnaire de packages et Node.js pour exécuter du code JavaScript côté serveur.",
     "techUsed": ["REACT", "NODEJS", "YARN", "GIT", "GITHUB"],
     "github": "https://github.com/JulienneH/Projet10.git",
