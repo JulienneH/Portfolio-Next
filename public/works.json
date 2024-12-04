@@ -63,7 +63,7 @@
   {
     "id": 8,
     "title": "Portfolio de photographe ",
-    "imgProject": "optimisation",
+    "imgProject": "optimisation ",
     "description": "Le but de ce travail était d'optimiser le référencement, la performance et l'accessibilité d'un site web afin d'améliorer son classement sur les moteurs de recherche et offrir une meilleure expérience utilisateur. J'ai commencé par identifier les problèmes de chargement et de référencement du site en utilisant des outils d'audit tels que Lighthouse et Wave. Sur la base des résultats obtenus, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code, et l'optimisation pour les moteurs de recherche.",
     "techUsed": ["WAVE", "LIGHTHOUSE", "HTML", "CSS", "JS", "GIT", "GITHUB"],
     "github": "https://github.com/JulienneH/Optimisation-seo-p9.git",
