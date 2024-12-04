@@ -1,0 +1,65 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .cards {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.cards_works {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+@media (max-width: 768px) {
+  .cards_works {
+    margin-left: auto;
+  }
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 15px;
+  width: 25%;
+  text-align: center;
+  height: 230px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+  .card {
+    width: 85%;
+    margin-left: 15px;
+  }
+}
+.card_image {
+  width: 90%;
+  border-radius: 5px;
+  object-fit: contain;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .card_image {
+    width: 80%;
+  }
+}
+.card_title {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+.card_description {
+  font-size: 0.9em;
+  color: #555;
+}/*# sourceMappingURL=works.css.map */

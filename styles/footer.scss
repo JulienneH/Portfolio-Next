@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 40px;
+  align-items: center;
+  &_img {
+    display: flex;
+    gap: 50px;
+  }
+  &_logo {
+    width: 100px;
+  }
+  &_text {
+    font-size: 20px;
+    color: #5e5343;
+  }
+  &_cv {
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+}
