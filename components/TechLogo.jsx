@@ -32,8 +32,8 @@ const TechLogo = ({ tech }) => {
       src={logoSrc}
       alt={tech}
       className="skill-image"
-      width={40}
-      height={40}
+      width={800}
+      height={800}
     />
   );
 };
