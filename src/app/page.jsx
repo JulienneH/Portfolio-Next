@@ -7,23 +7,32 @@ import Skills from "../../components/Skills";
 import FormContact from "../../components/FormContact";
 import Footer from "../../components/Footer";
 import "../../styles/main.scss";
+import FadeInSection from "../../components/FadeInSection";
 
 const SinglePage = () => {
   return (
     <div>
-      <Navigation />
-
-      <div className="presentation_page">
-        <PresentationPage />
-      </div>
-
-      <FormationSection />
+      <FadeInSection>
+        <Navigation />
+      </FadeInSection>
+      <FadeInSection>
+        <div className="presentation_page">
+          <PresentationPage />
+        </div>
+      </FadeInSection>
+      <FadeInSection>
+        <FormationSection />
+      </FadeInSection>
 
       <WorksSection />
 
-      <Skills />
+      <FadeInSection>
+        <Skills />
+      </FadeInSection>
 
-      <FormContact />
+      <FadeInSection>
+        <FormContact />
+      </FadeInSection>
 
       <Footer />
     </div>
