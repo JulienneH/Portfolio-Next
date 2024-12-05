@@ -14,13 +14,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            src={GITHUB}
-            alt="lien repo github"
-            className="footer_logo"
-            width={40}
-            height={40}
-          />
+          <Image src={GITHUB} alt="lien repo github" className="footer_logo" />
         </a>
         <a
           href="https://www.linkedin.com/in/juliennehattabi"
@@ -31,8 +25,6 @@ const Footer = () => {
             src={LINKEDIN}
             alt="lien compte linkedin"
             className="footer_logo"
-            width={40}
-            height={40}
           />
         </a>
         <a
