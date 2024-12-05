@@ -23,8 +23,6 @@ const FormationSection = () => {
         src={ImageFormation}
         alt="Bureau développeur web"
         className="formation_photo section_photo"
-        width={500}
-        height={300}
       />
     </div>
   );

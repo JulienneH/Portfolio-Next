@@ -8,8 +8,6 @@ const PresentationPage = () => {
         src={Photo}
         alt="Hattabi Julienne développeuse web front-end"
         className="section_photo presentation_photo"
-        width={500}
-        height={500}
       />
       <div className="section_text">
         <h1 className="section_title">Julienne HATTABI</h1>
