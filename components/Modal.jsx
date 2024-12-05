@@ -1,20 +1,21 @@
 "use client";
-import React, { useState, useEffect } from "react";
+
+import React, { useState, useEffect, useRef } from "react";
 import TechLogo from "../components/TechLogo";
 
-const Modal = ({
-  isOpen,
-  isOpening,
-  isClosing,
-  onClose,
-  selectedWork,
-  modalRef,
-}) => {
+const Modal = ({ isOpen, isOpening, isClosing, onClose, selectedWork }) => {
   const [mounted, setMounted] = useState(false);
+  const modalRef = useRef(null); // Référence pour la modale
 
   useEffect(() => {
     setMounted(true); // S'assure que le code n'est exécuté qu'une fois côté client
   }, []);
+
+  const handleOutsideClick = (event) => {
+    if (modalRef.current && !modalRef.current.contains(event.target)) {
+      onClose(); // Ferme la modale si le clic est à l'extérieur
+    }
+  };
 
   if (!mounted || !isOpen || !selectedWork) return null;
 
@@ -23,6 +24,7 @@ const Modal = ({
       className={`modal ${isOpening ? "visible" : ""} ${
         isClosing ? "hidden" : ""
       }`}
+      onClick={handleOutsideClick} // Détecte le clic sur la div parent
     >
       <div className="modal_content" ref={modalRef}>
         <button className="close_button" onClick={onClose}>
